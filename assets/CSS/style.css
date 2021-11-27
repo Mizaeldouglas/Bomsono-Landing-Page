@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Menu*/
+
+.header-container
+{
+    display: flex;
+    justify-content: space-between;       
+    margin: 20px;
+}
+
+
+
+/* Parte central */
+
+
+.section-container
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #e5e5e8;
+    background-image: linear-gradient(to top, #e5e5e5,#e5e5e5,#e5e5e5, #fff);
+}
+.section-titulo{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    
+}
+.section-img img
+{
+    margin-left: 50px;
+    margin-top: 280px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;   
+    
+}
+.section-img-svg1
+{
+    margin-left: 5px;
+    margin-top: 80px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../icons/cloud1.svg);
+    background-size: 150px;
+    background-repeat: no-repeat;
+    
+}
+.section-img-svg2
+{
+    margin-left: 90px;
+    margin-bottom: 440px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../icons/cloud2.svg);
+    background-size: 140px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.section-img-svg3
+{
+    margin-left: 280px;
+    margin-bottom: 580px;
+    width: 500px;
+    height: 250px;
+    background-image: url(../icons/cloud1.svg);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.section-img 
+{
+    width: 500px;
+    height: 300px;
+
+}
+.section-subtitulo
+{
+    margin-bottom: 80px;
+}
+.subtitulo{
+    margin: 50px 70px;
+    font-size: 12px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+ /* Button*/
+
+.button img
+{
+    margin-right: 20px;
+}
+ .button a
+ {
+    text-align: center;
+    background-color: #0b7bfb;
+    color: #fff; 
+    padding: 20px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 9px;
+ }
+
